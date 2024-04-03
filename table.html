@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table,tr,th,td{
+            border: 2px solid red;
+        }
+        th,tr{
+            padding: 10px;
+            text-align: center;
+        }
+        th{
+            background-color: aqua;
+            color:black;
+        }
+        tr:nth-child(even){
+            background-color: green;
+            color: white;
+        }
+        #button{
+            border: 1px solid;
+            padding: 5px;
+            text-decoration: none;
+            margin-left: 100px;
+            border-radius: 5px;
+            background-color: green;
+            color: white;
+
+        }
+        #button:hover{
+            background-color: aqua;
+        }
+    </style>
+     
+</head>
+<body>
+    <h1>Student Information</h1>
+    <table style="border-collapse:collapse">
+        <tr>
+            <th rowspan="6">MCA Department</th>
+            <th colspan="6">MCA Department</th>
+        </tr>
+        <tr><!--row of table-->
+            <th>roll no</th>   
+            <th>name</th>   
+            <th>course</th>   
+            <th>percentage</th>   
+        </tr>
+        <tr>
+            <td>1</td>   <!--table data-->
+            <td>tinku</td>
+            <td>mca</td>
+            <td>80%</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>tinku</td>
+            <td>mca</td>
+            <td>80%</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>tinku</td>
+            <td>mca</td>
+            <td>80%</td>
+        </tr>
+    </table><br><br>
+    <a href="list.html" id="button">open list</a>
+</body>
+</html>
