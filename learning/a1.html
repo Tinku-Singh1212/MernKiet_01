@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="first.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input type</title>
+</head>
+<body>
+    <h1>This is Registration Form</h1>
+    <form id="myform">
+        <div>
+            Name : <input type="text" name="name" placeholder="enter the frist name " autofocus maxlength="15"><br><br>
+            Lastname : <input type="text" lastname="name" disabled readonly placeholder="readonly"><br><br>
+            Father's Name : <input type="text" name="fahter's name" required size="20" placeholder="enter father name"><br><br>
+            Mother's Name : <input type=" text" name="mother's name"required size="30" placeholder="enter mother name"><br><br>
+            Email : <input type="email" name="email"size="50" placeholder="enter e-mail"><br><br>
+            Mobile no : <input type="number" required="----------" placeholder="enter mobile no."><br><br>
+            Number : <input type="number" size="5" step="3"><br><br>
+            Date of birth : <input type="date" name="dob"><br><br>
+            Time : <input type="time" name="time"><br><br>
+            Month : <input type="month" name="mothe"><br><br>
+            Date & Time : <input type="datetime-local" name="date&time"><br><br>
+            Week : <input type="week" name="week"><br><br>
+            Photo : <input type="file" name="Photo" multiple><br><br>
+            Gerder----------------- <br><br>
+            Male : <input type="radio" name="gender">            
+            Female : <input type="radio" name="gender"> 
+            Other : <input type="radio" name="gender"> <br><br>
+            <img src="tinkuimg.png width=200px height=250px"> <br><br>
+            Language known-------------- <br><br>
+            English : <input type="checkbox" name="language" checked>
+            Hindi : <input type="checkbox" name="language">
+            Sanskrit : <input type="checkbox" name="language">
+            Punjabi : <input type="checkbox" name="language"><br><br>
+            Person : <input type="number" name="Personcount" min="1" max="25"> <br><br>
+            Range : <input type="range" min="0" max="20"> <br><br>
+            Search : <input type="search" name="search"> <br><br>
+            Website URL : <input type="url" name="Websiteurl"> <br><br>
+            Choose File : <input type="file" accept="audio/*,video/*,image/*"> <br><br>
+            Fruits : <input list="fruits">
+               <datalist id="fruits">
+                <option value="banana"></option>
+                <option value="mango"></option>
+                <option value="orange"></option>
+                <option value="apple"></option>
+                <option value="grapes"></option>
+               </datalist> <br><br>
+            <input type="submit" value="SUBMIT">
+            <input type="reset" value="RESET">
+            <input type="button" value="Click me">
+         </div>
+    </form>
+    <form >
+        <h2>This is another form</h2>
+        Middle nmae : <input type="text" name="middle name" form="myform">
+    </form>
+</body>
+</html>
