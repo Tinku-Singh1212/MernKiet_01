@@ -14,6 +14,7 @@ const Cards = (props) => {
                              <h5>{price} Rs</h5>
                              <h6>{brand}</h6>
                          <div className='d-flex flex-row justify-content-between'></div>
+                         <button class="btn btn-primary">Buy</button>
                              <a href="https://www.instagram.com/" className="btn btn-warning">instagram profile</a>
                     </div>
             </div>
